@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Aprende programación gratis`,
+  title: `${siteConfig.headline} | Aprende a programar`,
   description: siteConfig.description,
   icons: [
     {

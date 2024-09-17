@@ -4,22 +4,18 @@ import { siteConfig } from "@/config/site";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <h1 className="text-4xl font-bold text-center sm:text-left">
-          {siteConfig.name}
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start min-w-fit">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center sm:text-left w-full">
+          {siteConfig.headline}
         </h1>
         <p className="text-xl text-center sm:text-left">
           {siteConfig.description}
         </p>
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Aprende a programar sin costo alguno.
-          </li>
-          <li className="mb-2">
-            Contenido mantenido por la comunidad.
-          </li>
-          <li>Todos son bienvenidos, sin importar su nivel de experiencia.</li>
-        </ol>
+        <ul className="list-none text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] space-y-2">
+          {siteConfig.features.map((feature, index) => (
+            <li key={index}>{feature}</li>
+          ))}
+        </ul>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -28,7 +24,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Comienza a aprender
+            {siteConfig.cta.primary}
           </a>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
@@ -36,7 +32,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contribuye
+            {siteConfig.cta.secondary}
           </a>
         </div>
       </main>
