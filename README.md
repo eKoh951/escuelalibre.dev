@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Escuela Libre de Desarrollo
 
-## Getting Started
+Este es el repositorio oficial de [escuelalibre.dev](https://escuelalibre.dev), una escuela de programación libre y gratuita.
 
-First, run the development server:
+## Acerca del proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Escuela Libre de Desarrollo es una iniciativa comunitaria que busca proporcionar educación en programación de alta calidad sin costo alguno. Nuestro objetivo es hacer que el aprendizaje de la programación sea accesible para todos, independientemente de su situación económica o nivel de experiencia.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Cursos gratuitos de programación
+- Contenido mantenido por la comunidad
+- Proyectos prácticos para aprender haciendo
+- Comunidad de apoyo para estudiantes y colaboradores
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Cómo contribuir
 
-## Learn More
+Valoramos y agradecemos las contribuciones de la comunidad. Si deseas contribuir, por favor:
 
-To learn more about Next.js, take a look at the following resources:
+1. Haz un fork del repositorio
+2. Crea una nueva rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contacto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+GitHub: [@eKoh951/escuelalibre.dev](https://github.com/eKoh951/escuelalibre.dev)
 
-## Deploy on Vercel
+Sitio web: [escuelalibre.dev](https://escuelalibre.dev)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licencia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
